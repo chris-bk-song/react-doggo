@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import DogImage from './components/DogImage';
+import TextInput from './components/TextInput';
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <h1>Doggz</h1>
       </header>
       <DogImage />
+      <TextInput />
     </div>
   );
 }
